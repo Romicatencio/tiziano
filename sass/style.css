@@ -481,7 +481,7 @@
   .videos video {
     width: 400px;
     height: auto;
-    margin-left: 20px;
+    margin-left: 10px;
     padding: 5px;
     padding-top: 20px;
   }
@@ -501,7 +501,7 @@
     padding-top: 80px;
   }
   .hermanos p {
-    font-size: 15px;
+    font-size: 13px;
     text-align: left;
     padding: 10px;
     margin-top: 20px;
@@ -512,7 +512,7 @@
     border-radius: 20px;
     border: solid 6px aquamarine;
     display: block;
-    margin-left: 20px;
+    margin-left: 10px;
     padding: 10px;
   }
   /* animacion de dibujos */
