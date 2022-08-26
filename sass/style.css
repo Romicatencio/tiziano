@@ -1,0 +1,719 @@
+@media screen and (min-width: 769px) {
+  /* portada */
+  .portada {
+    display: flex;
+  }
+  .portada img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    padding: 10px;
+    /*    margin-left: 350px; */
+    border-radius: 20px;
+  }
+  .p-portada {
+    background-image: url(../img/fondo-aqua.webp);
+    width: 400px;
+    height: 800px;
+    padding: 10px;
+  }
+  .p-portada p {
+    font-size: 50px;
+    font-weight: 600;
+    color: brown;
+    text-align: center;
+    margin-top: 250px;
+    background-color: white;
+    position: relative;
+  }
+  /* barra de navegacion */
+  .container-fluid {
+    /* background-color: rgb(154, 236, 209); */
+    background-image: url(../img/guarda.png);
+    padding: 40px;
+    margin-top: 20px;
+    border: solid black 3px;
+  }
+  .container-fluid .navbar-collapse {
+    margin-left: 400px;
+  }
+  .container-fluid a {
+    font-size: 20px;
+    color: black;
+    background-color: rgb(192, 189, 189);
+    margin: 5px;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  .container-fluid a:hover {
+    background-color: white;
+    border: solid black 3px;
+    color: black;
+    border-radius: 10px;
+  }
+  /* caricatura y presentacion */
+  /* org de caricatura y presentacion */
+  .mi-presentacion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    gap: 5px;
+    margin: 5px;
+    /* caricatura */
+    /* presentacion */
+  }
+  .mi-presentacion img {
+    border-radius: 30px;
+    border: solid 8px aquamarine;
+  }
+  .mi-presentacion .animate__animated {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    margin-top: 150px;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+  }
+  /* card */
+  .row {
+    margin: 10px;
+  }
+  .row .card {
+    border: solid 4px black;
+  }
+  /* text-card */
+  .card-title {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    background-color: rgb(116, 240, 240);
+    padding: 5px;
+  }
+  .card-text {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+  }
+  /* videos caminando y tirando */
+  .videos {
+    display: flex;
+  }
+  .videos p {
+    font-size: 30px;
+    background-color: burlywood;
+    color: black;
+    margin-left: 30px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .videos video {
+    width: 600px;
+    height: auto;
+    margin-left: 45px;
+    padding: 5px;
+    padding-top: 20px;
+  }
+  /* familia */
+  /* fabri */
+  /* org de fabri */
+  .hermanos {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 20px;
+    /* dibujos */
+  }
+  .hermanos img {
+    width: 200px;
+    height: auto;
+    padding-top: 80px;
+    display: block;
+  }
+  .hermanos p {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+  }
+  .hermanos .img-hermanos {
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    border-radius: 20px;
+    border: solid 6px aquamarine;
+  }
+  /* animacion de dibujos */
+  .animate__flip {
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+  }
+  /* fotos-fabri */
+  /* .fotos-fabri{
+      padding: 20px;
+
+  } */
+  .fabri-fotos {
+    display: flex;
+    background-image: url(../img/fondo.jpg);
+    /* video con fabri */
+    /* fotos con fabri */
+  }
+  .fabri-fotos video {
+    margin-left: 30px;
+    width: 600px;
+    height: 800px;
+  }
+  .fabri-fotos .fotos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .fabri-fotos .fotos img {
+    width: 200px;
+    height: 240px;
+    margin: 3px;
+    /* border: solid 4px black; */
+  }
+  .fabri-fotos .fotos img:hover {
+    transform: scale(1.2);
+    transform: all 1s;
+  }
+  /* papas */
+  .fondo-familia {
+    background-image: url(../img/fondo.jpg);
+  }
+  /* titulo */
+  /* contenedor */
+  .papas {
+    width: 800px;
+    height: auto;
+    background-color: burlywood;
+    border: solid 3px brown;
+    margin: auto;
+    margin-top: 30px;
+    /* titulos */
+    /* explicacion */
+    /* fotos papa-mama */
+  }
+  .papas p {
+    font-size: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+  }
+  .papas h3 {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    margin: 10px;
+  }
+  .papas img {
+    width: 300px;
+    height: auto;
+    margin-left: 250px;
+    border-radius: 30px;
+  }
+  /* padrinos */
+  .padrinos {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: solid 8px rgb(101, 237, 247);
+    border-radius: 20px;
+    margin: 20px;
+  }
+  .padrinos h1 {
+    font-size: 50px;
+    text-align: center;
+    color: black;
+  }
+  .padrinos p {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+  }
+  /* presentacion-lore y alan */
+  .presentacion-lore {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    border: solid 3px black;
+    margin-top: 20px;
+    background-image: url(../img/corazon.webp);
+    margin: 20px;
+  }
+  .presentacion-lore .lore2 {
+    width: 400px;
+    height: auto;
+    display: block;
+  }
+  .presentacion-lore .lore1 {
+    width: 400px;
+    height: auto;
+  }
+  .presentacion-lore p {
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    color: black;
+  }
+  h3 {
+    font-size: 60px;
+    text-align: center;
+    color: aqua;
+  }
+  /* invitacion */
+  .fondo {
+    background-image: url(../img/nordico.png);
+  }
+  .invitacion {
+    background-color: white;
+    width: 800px;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+    border: solid 3px brown;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .invitacion p {
+    font-size: 30px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+  }
+  /* acordeon */
+  .accordion-item {
+    background-image: url(../img/nordico.png);
+  }
+  /* texto-acordeon */
+  .accordion-button {
+    font-size: 30px;
+  }
+  .accordion-body {
+    font-size: 30px;
+    text-align: center;
+  }
+  .confirmar {
+    background-color: white;
+    width: 800px;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+    border: solid 3px brown;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .confirmar h1 {
+    font-size: 25px;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+  }
+  .confirmar a {
+    font-size: 20px;
+    background-color: darkorange;
+    color: black;
+    border: dotted 2px black;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 250px;
+    margin-bottom: 30px;
+    text-decoration: none;
+  }
+  .video-fam {
+    background-color: white;
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+    border: solid 3px brown;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    /* a{
+        font-size: 20px;
+        background-color: darkorange;
+        color: black;
+        text-decoration: none;
+        border: black 2px dotted;
+    } */
+  }
+  .video-fam p {
+    font-size: 20px;
+    color: brown;
+    text-align: center;
+  }
+  .video-fam img {
+    width: 50px;
+    height: 50px;
+  }
+  .video-fam h3 {
+    font-size: 20px;
+    color: brown;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .portada {
+    display: flex;
+  }
+  .portada img {
+    width: 100%;
+    height: 300px;
+    max-width: 250px;
+    padding: 10px;
+    /*    margin-left: 350px; */
+    border-radius: 20px;
+  }
+  .p-portada {
+    background-image: url(../img/fondo-aqua.webp);
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+  }
+  .p-portada p {
+    font-size: 20px;
+    font-weight: 600;
+    color: brown;
+    text-align: center;
+    margin-top: 100px;
+    background-color: white;
+    position: relative;
+  }
+  /* barra de navegacion */
+  /*   .container-fluid{
+        /* background-color: rgb(154, 236, 209); */
+  /*   background-image: url(../img/guarda.png);
+    padding: 40px;
+    margin-top: 20px;
+    border: solid black 3px; */
+  .navbar-toggler {
+    background-color: aquamarine;
+  }
+  .navbar-collapse {
+    margin-left: 40px;
+  }
+  .container-fluid a {
+    font-size: 15px;
+    color: black;
+    margin: 5px;
+    border-radius: 10px;
+    margin-left: 50px;
+  }
+  .container-fluid a:hover {
+    background-color: rgb(185, 247, 226);
+    color: black;
+    border-radius: 10px;
+  }
+  /* caricatura y presentacion */
+  /* org de caricatura y presentacion */
+  .mi-presentacion {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 10px;
+    /* caricatura */
+    /* presentacion */
+  }
+  .mi-presentacion img {
+    border-radius: 30px;
+    border: solid 4px aquamarine;
+    /* max-width: 300px; */
+    /* margin-left: 70px; */
+  }
+  .mi-presentacion .animate__animated {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    margin-top: 20px;
+  }
+  /* card */
+  .row {
+    margin: 10px;
+  }
+  .row .card {
+    border: solid 3px black;
+  }
+  /* text-card */
+  .card-title {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(116, 240, 240);
+    padding: 5px;
+  }
+  .card-text {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+  }
+  /* videos caminando y tirando */
+  .videos {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .videos p {
+    font-size: 20px;
+    background-color: burlywood;
+    color: black;
+    margin-left: 30px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .videos video {
+    width: 400px;
+    height: auto;
+    margin-left: 45px;
+    padding: 5px;
+    padding-top: 20px;
+  }
+  /* familia */
+  /* fabri */
+  /* org de fabri */
+  .hermanos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 5px;
+    /* dibujos */
+  }
+  .hermanos img {
+    display: none;
+    width: 50px;
+    height: auto;
+    padding-top: 80px;
+  }
+  .hermanos p {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .hermanos .img-hermanos {
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    border: solid 6px aquamarine;
+    display: block;
+    margin-left: 30px;
+    padding: 10px;
+  }
+  /* animacion de dibujos */
+  .animate__flip {
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+  }
+  .fabri-fotos {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 10px;
+  }
+  .fabri-fotos video {
+    width: 300px;
+    height: 500px;
+    margin-left: 80px;
+  }
+  /* papas */
+  .fondo-familia {
+    background-image: url(../img/fondo.jpg);
+  }
+  /* titulo */
+  /* contenedor */
+  .papas {
+    width: 400px;
+    height: auto;
+    background-color: burlywood;
+    border: solid 3px brown;
+    margin: auto;
+    margin-top: 30px;
+    /* titulos */
+    /* explicacion */
+    /* fotos papa-mama */
+  }
+  .papas p {
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    text-align: center;
+  }
+  .papas h3 {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin: 10px;
+  }
+  .papas img {
+    width: 200px;
+    height: auto;
+    margin-left: 90px;
+    border-radius: 30px;
+  }
+  /* padrinos */
+  .padrinos {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    border: solid 8px rgb(101, 237, 247);
+    border-radius: 20px;
+    margin: 20px;
+  }
+  .padrinos h1 {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+  }
+  .padrinos p {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+  }
+  /* presentacion-lore y alan */
+  .presentacion-lore {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 10px;
+    border: solid 3px black;
+    margin-top: 20px;
+    background-image: url(../img/corazon.webp);
+    margin: 20px;
+  }
+  .presentacion-lore .lore2 {
+    width: 150px;
+    height: auto;
+    display: none;
+  }
+  .presentacion-lore .lore1 {
+    width: 150px;
+    height: auto;
+  }
+  .presentacion-lore p {
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+    color: black;
+  }
+  h3 {
+    font-size: 30px;
+    text-align: center;
+    color: aqua;
+  }
+  /* invitacion */
+  .fondo {
+    background-image: url(../img/nordico.png);
+  }
+  .invitacion {
+    background-color: white;
+    width: 400px;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+    border: solid 3px brown;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .invitacion p {
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+  }
+  /* acordeon */
+  .accordion-item {
+    background-image: url(../img/nordico.png);
+  }
+  /* texto-acordeon */
+  .accordion-button {
+    font-size: 20px;
+  }
+  .accordion-body {
+    font-size: 20px;
+    text-align: center;
+  }
+  .confirmar {
+    background-color: white;
+    width: 400px;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+    border: solid 3px brown;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .confirmar h1 {
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+  }
+  .confirmar a {
+    font-size: 15px;
+    background-color: darkorange;
+    color: black;
+    border: dotted 2px black;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 120px;
+    margin-bottom: 30px;
+    text-decoration: none;
+  }
+  .video-fam {
+    background-color: white;
+    width: 400px;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+    border: solid 3px brown;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    /* a{
+        font-size: 20px;
+        background-color: darkorange;
+        color: black;
+        text-decoration: none;
+        border: black 2px dotted;
+    } */
+  }
+  .video-fam p {
+    font-size: 20px;
+    color: brown;
+    text-align: center;
+  }
+  .video-fam img {
+    width: 30px;
+    height: 30px;
+  }
+  .video-fam h3 {
+    font-size: 20px;
+    color: brown;
+    text-align: center;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Cabin", sans-serif;
+  font-family: "Cookie", cursive;
+  font-family: "Handlee", cursive;
+  font-family: "Hubballi", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-family: "Satisfy", cursive;
+}/*# sourceMappingURL=style.css.map */
