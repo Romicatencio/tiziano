@@ -28,14 +28,16 @@
             color:brown;
             text-align: center;
             margin-top: 250px;
-            background-color: white;
+            
             position: relative;
             }
     
         }
     
         
-    
+        .fondo-index{
+            background-image: url(../img/fondo-aqua.webp);
+         }
     
     /* barra de navegacion */
     .container-fluid{

@@ -23,8 +23,10 @@
     color: brown;
     text-align: center;
     margin-top: 250px;
-    background-color: white;
     position: relative;
+  }
+  .fondo-index {
+    background-image: url(../img/fondo-aqua.webp);
   }
   /* barra de navegacion */
   .container-fluid {
@@ -372,6 +374,9 @@
     /*    margin-left: 350px; */
     border-radius: 20px;
   }
+  .fondo-index {
+    background-image: url(../img/fondo-aqua.webp);
+  }
   .p-portada {
     background-image: url(../img/fondo-aqua.webp);
     width: 200px;
@@ -379,12 +384,12 @@
     padding: 10px;
   }
   .p-portada p {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
     color: brown;
     text-align: center;
     margin-top: 100px;
-    background-color: white;
+    /* background-color: white; */
     position: relative;
   }
   /* barra de navegacion */
@@ -417,7 +422,6 @@
   .mi-presentacion {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
     padding: 10px;
     /* caricatura */
     /* presentacion */
@@ -425,11 +429,13 @@
   .mi-presentacion img {
     border-radius: 30px;
     border: solid 4px aquamarine;
-    /* max-width: 300px; */
-    /* margin-left: 70px; */
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-left: 70px;
   }
   .mi-presentacion .animate__animated {
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     color: black;
     -webkit-animation-duration: 4s;
@@ -467,7 +473,7 @@
     font-size: 20px;
     background-color: burlywood;
     color: black;
-    margin-left: 30px;
+    margin-left: 20px;
     text-align: center;
     padding: 10px;
     margin-top: 20px;
@@ -475,7 +481,7 @@
   .videos video {
     width: 400px;
     height: auto;
-    margin-left: 45px;
+    margin-left: 35px;
     padding: 5px;
     padding-top: 20px;
   }
@@ -485,7 +491,6 @@
   .hermanos {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
     padding: 5px;
     /* dibujos */
   }
@@ -496,7 +501,7 @@
     padding-top: 80px;
   }
   .hermanos p {
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     padding: 10px;
     margin-top: 20px;
@@ -507,7 +512,7 @@
     border-radius: 20px;
     border: solid 6px aquamarine;
     display: block;
-    margin-left: 30px;
+    margin-left: 20px;
     padding: 10px;
   }
   /* animacion de dibujos */
